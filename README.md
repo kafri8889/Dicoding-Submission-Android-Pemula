@@ -5,3 +5,10 @@ Submission - Belajar membuat aplikasi android untuk pemula
 <p>Bahasa: Kotlin</p>
 
 ## Preview
+
+<p float="left">
+  <img src="https://github.com/kafri8889/Dicoding-Submission-Android-Pemula/blob/master/img/splash_screen.jpg" height="600" width="270" >
+  <img src="https://github.com/kafri8889/Dicoding-Submission-Android-Pemula/blob/master/img/main_activity.jpg" height="600" width="270" >
+  <img src="https://github.com/kafri8889/Dicoding-Submission-Android-Pemula/blob/master/img/detail_activity.jpg" height="600" width="270">
+  <img src="https://github.com/kafri8889/Dicoding-Submission-Android-Pemula/blob/master/img/about_activity.jpg" height="600" width="270" >
+</p>
