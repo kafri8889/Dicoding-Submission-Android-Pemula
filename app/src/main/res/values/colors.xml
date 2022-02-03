@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_light">#855400</color>
+    <color name="on_primary_light">#FFFFFF</color>
+    <color name="primary_container_light">#FFDDB3</color>
+    <color name="on_primary_container_light">#2A1700</color>
+
+    <color name="secondary_light">#705B41</color>
+    <color name="on_secondary_light">#FFFFFF</color>
+    <color name="secondary_container_light">#FCDEBC</color>
+    <color name="on_secondary_container_light">#271905</color>
+
+    <color name="tertiary_light">#53643E</color>
+    <color name="on_tertiary_light">#FFFFFF</color>
+    <color name="tertiary_container_light">#D6E9BA</color>
+    <color name="on_tertiary_container_light">#111F02</color>
+
+    <color name="error_light">#BA1B1B</color>
+    <color name="on_error_light">#FFFFFF</color>
+    <color name="error_container_light">#FFDAD4</color>
+    <color name="on_error_container_light">#410001</color>
+
+    <color name="background_light">#FCFCFC</color>
+    <color name="on_background_light">#1F1B16</color>
+
+    <color name="surface_light">#FAF9F9</color>
+    <color name="on_surface_light">#1F1B16</color>
+    <color name="surface_variant_light">#F1E0D0</color>
+    <color name="on_surface_variant_light">#504539</color>
+
+    <color name="outline">#827567</color>
+    <color name="outline_light">#00000000</color>
+</resources>
