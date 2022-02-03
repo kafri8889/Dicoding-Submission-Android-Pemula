@@ -1,8 +1,8 @@
 package com.anafthdev.dicodingsubmission.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import com.anafthdev.dicodingsubmission.R
 
 class AboutActivity : AppCompatActivity() {

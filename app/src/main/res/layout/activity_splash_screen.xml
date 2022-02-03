@@ -7,4 +7,14 @@
     android:background="@color/surface_variant_light"
     tools:context=".ui.SplashScreenActivity">
 
+    <ImageView
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/ic_dog"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

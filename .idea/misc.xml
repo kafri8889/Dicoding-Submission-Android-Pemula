@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/drawable/ic_dog.xml" value="0.108" />
         <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/layout/activity_about.xml" value="0.22" />
         <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/layout/activity_detail.xml" value="0.2" />
         <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/layout/activity_splash_screen.xml" value="0.15" />
         <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/layout/list_item_dog.xml" value="0.22" />
         <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/layout/toolbar.xml" value="0.18" />
         <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/menu/menu_toolbar.xml" value="0.1111111111111111" />
+        <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.108" />
+        <entry key="..\:/DOCUMENTS/Android/AndroidStudioComposeProject/DicodingSubmission/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.108" />
       </map>
     </option>
   </component>

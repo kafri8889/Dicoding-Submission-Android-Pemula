@@ -12,10 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingSubmission">
         <activity
-            android:name=".ui.AboutActivity"
+            android:name=".ui.MainActivity"
             android:exported="false" />
         <activity
             android:name=".ui.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AboutActivity"
             android:exported="false" />
         <activity
             android:name=".ui.SplashScreenActivity"
@@ -26,9 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.MainActivity"
-            android:exported="false" />
+
     </application>
 
 </manifest>

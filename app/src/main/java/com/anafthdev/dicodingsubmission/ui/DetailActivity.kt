@@ -3,10 +3,9 @@ package com.anafthdev.dicodingsubmission.ui
 import android.annotation.SuppressLint
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.anafthdev.dicodingsubmission.R
 import com.anafthdev.dicodingsubmission.databinding.ActivityDetailBinding
 import com.anafthdev.dicodingsubmission.model.DogItem
