@@ -12,3 +12,7 @@ Submission - Belajar membuat aplikasi android untuk pemula
   <img src="https://github.com/kafri8889/Dicoding-Submission-Android-Pemula/blob/master/img/detail_activity.jpg" height="600" width="270">
   <img src="https://github.com/kafri8889/Dicoding-Submission-Android-Pemula/blob/master/img/about_activity.jpg" height="600" width="270" >
 </p>
+
+<p float="center">
+  <img src="https://github.com/kafri8889/Dicoding-Submission-Android-Pemula/blob/master/img/sertifikat_dicoding_android_pemula.jpg" height="300" width="400" >
+</p>
