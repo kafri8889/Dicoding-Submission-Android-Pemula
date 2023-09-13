@@ -8,10 +8,11 @@ import android.os.Build
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.IntentCompat
 import com.anafthdev.dicodingsubmission.R
 import com.anafthdev.dicodingsubmission.data.datasource.local.LocalDogItemDataProvider
-import com.anafthdev.dicodingsubmission.databinding.ActivityDetailBinding
 import com.anafthdev.dicodingsubmission.data.model.DogItem
+import com.anafthdev.dicodingsubmission.databinding.ActivityDetailBinding
 import com.anafthdev.dicodingsubmission.foundation.util.TransitionUtil.applySceneTransitionAnimation
 import com.anafthdev.dicodingsubmission.foundation.util.TransitionUtil.setSharedElementEnterTransition
 import com.bumptech.glide.Glide
@@ -67,7 +68,8 @@ class DetailActivity : AppCompatActivity() {
 
 	private fun updateDog() {
 		if (intent == null) return
-		val mDog = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) intent.getParcelableExtra("dog", DogItem::class.java) else intent.getParcelableExtra("dog")
+		val mDog = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) IntentCompat.getParcelableExtra(intent, "dog", DogItem::class.java)
+		else intent.getParcelableExtra("dog")
 		mDog?.let { dog = it }
 	}
 
