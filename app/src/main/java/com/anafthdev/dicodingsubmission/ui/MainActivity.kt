@@ -24,6 +24,7 @@ class MainActivity: AppCompatActivity() {
 	@SuppressLint("IntentWithNullActionLaunch")
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
+		//
 		installSplashScreen() // Splash screen
 
 		// Set content view & bind
