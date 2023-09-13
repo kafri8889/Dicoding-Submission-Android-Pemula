@@ -1,7 +1,6 @@
 package com.anafthdev.dicodingsubmission.ui
 
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -10,12 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.anafthdev.dicodingsubmission.R
-import com.anafthdev.dicodingsubmission.foundation.adapter.DogAdapter
 import com.anafthdev.dicodingsubmission.data.datasource.local.LocalDogItemDataProvider
 import com.anafthdev.dicodingsubmission.databinding.ActivityMainBinding
-import com.anafthdev.dicodingsubmission.data.model.DogItem
+import com.anafthdev.dicodingsubmission.foundation.adapter.DogAdapter
 import com.anafthdev.dicodingsubmission.foundation.util.TransitionUtil.makeSceneTransitionAnimation
-import com.google.android.material.color.DynamicColors
 
 class MainActivity: AppCompatActivity() {
 	
