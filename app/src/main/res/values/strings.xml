@@ -1,11 +1,11 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     
     <string name="app_name">Dicoding Submission</string>
     <string name="profile_name">Anaf Naufalian</string>
     <string name="profile_email">eunhaeonnie8889@gmail.com</string>
     <string name="profile_instagram">\@naphl_</string>
     <string name="profile_twitter">\@anafthdev_</string>
-    <string name="profile_github">kafri8889</string>
+    <string name="profile_github">\@kafri8889</string>
     <string name="instagram">Instagram</string>
     <string name="twitter">Twitter</string>
     <string name="github">GitHub</string>
@@ -16,5 +16,7 @@
     <string name="dog_info_height">- height:</string>
     <string name="dog_info_weight">- weight:</string>
     <string name="dog_info_breed_group">- breed group:</string>
-    
+    <string name="about">About</string>
+    <string name="hope" tools:ignore="ExtraTranslation">Bismillah, jadi android developer expert</string>
+
 </resources>

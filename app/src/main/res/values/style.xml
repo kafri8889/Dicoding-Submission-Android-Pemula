@@ -6,4 +6,9 @@
         <item name="cornerSize">50%</item>
     </style>
 
+    <style name="RoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
 </resources>

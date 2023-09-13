@@ -3,15 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="?attr/colorSurface"
     android:orientation="vertical"
     tools:context=".ui.DetailActivity">
 
-    <include
-        android:id="@+id/includeToolbar_DetailActivity"
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        layout="@layout/toolbar"/>
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_DetailActivity"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="0dp"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,21 +27,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
             android:orientation="vertical">
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/imageDog_DetailActivity"
                 android:layout_width="match_parent"
                 android:layout_height="256dp"
                 android:scaleType="centerCrop"
+                app:shapeAppearance="@style/RoundedImageView"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/tvDogBreedName_DetailActivity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="8dp"
                 android:text="@string/dog_breed_name"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
@@ -43,18 +51,16 @@
                 android:id="@+id/tvDogBreedDescription_DetailActivity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="8dp"
                 android:text="@string/dog_breed_description"
                 android:textSize="14sp"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <!-- LinearLayout Dog Info -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginStart="16dp"
                 android:orientation="vertical">
 
                 <com.google.android.material.textview.MaterialTextView
